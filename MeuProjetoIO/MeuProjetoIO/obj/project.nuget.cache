@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RKjhKP7hmBq0O9K+4jVCHpOJyFFeMIL+ygFRhAZWDZZ+eUu/SBFoYL/zf/Jj2Dml+1RDFedVSsTljApUURWYSg==",
+  "dgSpecHash": "jzaHqzLDwI6UR8gqZnXNXhLWVgegT/4TpbvWXzEQRPdysoVmTknKs4ZdFDp6N1oNM9RBzj9ePe8I0ZxvhSj4dg==",
   "success": true,
-  "projectFilePath": "C:\\CursoDevIO\\MeuProjetoIO\\MeuProjetoIO\\MeuProjetoIO.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\CursoDevIo\\Curso-Dev-Io\\MeuProjetoIO\\MeuProjetoIO\\MeuProjetoIO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\INFO - DAVI\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512",
+    "C:\\Users\\INFO - DAVI\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\INFO - DAVI\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\INFO - DAVI\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
