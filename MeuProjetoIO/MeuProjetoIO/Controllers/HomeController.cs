@@ -23,15 +23,32 @@ namespace MeuProjetoIO.Controllers
             _logger = logger;
         }
 
-        [Route("pagina-inicial")]
-        public IActionResult Index(int id, string categoria)
+        //[Route("pagina-inicial")]
+        public IActionResult Index()
         {
-            return View();
+            var filme = new Filme
+            {
+                Titulo = "Oi",
+                DataLancamento = DateTime.Now,
+                Genero = null,
+                Avaliacao = 10,
+                Valor = 20000,
+            };
+            return RedirectToAction("Privacy", filme);
+           // return View();
         }
 
         [Route("privacidade")]
-        public IActionResult Privacy()
+        public IActionResult Privacy(Filme filme)
         {
+            if (ModelState.IsValid)
+            {
+
+            }
+            foreach (var error in ModelState.Values.SelectMany(m => m.Errors))
+            {
+                Console.WriteLine(error.ErrorMessage);
+            }
             return View();
         }
 
